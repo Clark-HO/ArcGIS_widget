@@ -1,0 +1,21 @@
+{
+  "name": "Dronefootprint",
+  "type": "widget",
+  "version": "1.20.0",
+  "exbVersion": "1.20.0",
+  "manifestVersion": "1.5",
+  "author": "AERC",
+  "icon": "icon.svg",
+  "description": "上傳無人機照片並自動讀取 Exif/XMP 姿態參數，支援在地圖繪製預估拍攝範圍（Footprint），並可將選取的圖層範圍反投影回原始影像疊加顯示。",
+  "label": "無人機雙向投影工具",
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "defaultSize": {
+    "width": 450,
+    "height": 600
+  },
+  "properties": {
+    "hasConfig": true
+  }
+}
